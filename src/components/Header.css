@@ -1,0 +1,98 @@
+.title {
+  font-size: 9vw;
+  text-transform: uppercase;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 35vh;
+  width: 100%;
+}
+
+.title {
+  font-size: 7vw;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 900px) {
+  .header {
+    justify-content: space-evenly;
+    height: 25vh;
+  }
+  .title {
+    font-size: 11vw;
+  }
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.search {
+  width: 43%;
+}
+
+.select {
+  width: 43%;
+}
+.meanings {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  height: 55vh;
+  border: 10px solid rgb(105, 105, 105);
+  border-radius: 10px;
+  padding: 10px 20px;
+  overflow-x: hidden;
+}
+
+.subTitle {
+  font-size: 5vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 900px) {
+  .meanings {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 60vh;
+  }
+}
+.singleMean {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.footer {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.name {
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.iconContainer {
+  width: 60%;
+  height: 20px;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
